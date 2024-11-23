@@ -11,9 +11,15 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "slate-200": "#F7F7F7",
+      },
+      screens: {
+        mobile: { max: "768px" },
+        desktop:{ max:" 7680px"}, 
       },
     },
   },
   plugins: [],
 };
+
 export default config;
